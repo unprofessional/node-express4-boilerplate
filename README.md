@@ -1,8 +1,8 @@
-# Amida API Boilerplate
+# Node/Express skeleton boilerplate
 
 ## Overview
 
-This is a boilerplate application for building REST APIs in Node.js using ES6 and Express. Intended for use with Postgres using Sequelize ORM.
+This is a skeleton boilerplate application for building anything from REST APIs (with DB services) to thin-layer API gateways via Node.js using ES6 and Express.
 
 ### Features
 
@@ -47,12 +47,12 @@ Start server:
 yarn start
 
 # Selectively set DEBUG env var to get logs
-DEBUG=amida-api-boilerplate:* yarn start
+DEBUG=node-express4-boilerplate:* yarn start
 ```
 
 Tests:
 ```sh
-# Run tests written in ES6 
+# Run tests written in ES6
 yarn test
 
 # Run test along with code coverage
